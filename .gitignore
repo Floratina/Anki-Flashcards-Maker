@@ -1,0 +1,24 @@
+node_modules
+dist
+.vite
+*.tsbuildinfo
+.flashcards_staging
+src-tauri/gen
+src-tauri/target
+
+# Local secrets and private app data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*service-account*.json
+*service_account*.json
